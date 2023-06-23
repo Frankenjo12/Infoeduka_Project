@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Franko\\.nuget\\packages\\": {}
+    "C:\\Users\\Korisnik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My Files\\Infoeduka\\Infoeduka\\Infoeduka.csproj",
+      "projectUniqueName": "D:\\git\\Grupni projekt\\Infoeduka_Project\\Infoeduka\\Infoeduka.csproj",
       "projectName": "Infoeduka",
-      "projectPath": "C:\\My Files\\Infoeduka\\Infoeduka\\Infoeduka.csproj",
-      "packagesPath": "C:\\Users\\Franko\\.nuget\\packages\\",
-      "outputPath": "C:\\My Files\\Infoeduka\\Infoeduka\\obj\\",
+      "projectPath": "D:\\git\\Grupni projekt\\Infoeduka_Project\\Infoeduka\\Infoeduka.csproj",
+      "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
+      "outputPath": "D:\\git\\Grupni projekt\\Infoeduka_Project\\Infoeduka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Franko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
