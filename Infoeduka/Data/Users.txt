@@ -1,0 +1,7 @@
+﻿email|1234|Admin
+amail2|12345|Lecturer
+fraanko3721@gmail.com|Bok|Lecturer
+brnjkjo|1234|Lecturer
+crnjo|12345|Admin
+zaporozec|1234|Lecturer
+frnjok|1234|Admin
