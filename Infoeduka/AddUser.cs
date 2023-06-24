@@ -22,7 +22,7 @@ namespace Infoeduka
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            User user = new User();
+            UserModel user = new UserModel();
             user.Email = tbEmail.Text;
             user.Password = tbPassword.Text;
             if (rbAdmin.Checked == true)
@@ -39,7 +39,7 @@ namespace Infoeduka
                 File.Create(PATHUSERS);
             }
 
-            File.AppendAllTextAsync(PATHUSERS, User.SetForFileLine(user) + "\n");
+            File.AppendAllTextAsync(PATHUSERS, UserModel.SetForFileLine(user) + "\n");
             this.Hide();
         }
 

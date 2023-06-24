@@ -41,10 +41,10 @@ namespace Infoeduka
             }
 
             string[] lines = File.ReadAllLines(PATHUSERS);
-            List<User> users = new List<User>();
+            List<UserModel> users = new List<UserModel>();
             foreach (string line in lines)
             {
-                users.Add(User.parseFromFileLine(line));
+                users.Add(UserModel.parseFromFileLine(line));
             }
             users.Sort();
 

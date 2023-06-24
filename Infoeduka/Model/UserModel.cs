@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infoeduka.Model
 {
-    internal class User : IComparable<User>
+    public class UserModel : IComparable<UserModel>
     {
         private const char DEL = '|';
 
@@ -14,10 +14,10 @@ namespace Infoeduka.Model
         public string Password { get; set; }
         public string Role { get; set; }
 
-        public static User parseFromFileLine(string line)
+        public static UserModel parseFromFileLine(string line)
         {
             string[] data = line.Split(DEL);
-            User user = new User();
+            UserModel user = new UserModel();
             user.Email = data[0];
             user.Password = data[1];
             user.Role = data[2];
@@ -25,14 +25,14 @@ namespace Infoeduka.Model
             return user;
         }
 
-        public static string SetForFileLine(User user)
+        public static string SetForFileLine(UserModel user)
             => user.Email + DEL + user.Password + DEL + user.Role;
 
-        public int CompareTo(User? other) => Email.CompareTo(other.Email);
+        public int CompareTo(UserModel? other) => Email.CompareTo(other.Email);
 
         public override bool Equals(object? obj)
         {
-            return obj is User user &&
+            return obj is UserModel user &&
                    Email == user.Email &&
                    Password == user.Password;
         }

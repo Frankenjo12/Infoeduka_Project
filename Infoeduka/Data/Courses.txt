@@ -9,3 +9,6 @@ Predmet|email|6
 Frankovo grupno programiranje|Franko Bozic|4
 Moje|bpl|12
 Bok|Ja|3
+Test|Test|6
+Test|Test|6
+Test|Test|6

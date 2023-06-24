@@ -8,7 +8,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Infoeduka.Model
 {
-    internal class Course : IComparable<Course>
+    public class Course : IComparable<Course>
     {
         private const char DEL = '|';
 

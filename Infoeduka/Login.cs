@@ -17,7 +17,7 @@ namespace Infoeduka
     {
         private const string USERPATH = @"../../../Data/Users.txt";
         private const string LOGROLEPATH = @"../../../Data/LogRole.txt";
-        List<User> users = new();
+        List<UserModel> users = new();
         private string logRole = "";
 
         public Login()
@@ -33,7 +33,7 @@ namespace Infoeduka
 
         private void ValidateUser()
         {
-            User user = new User();
+            UserModel user = new UserModel();
             user.Email = tbEmail.Text;
             user.Password = tbPass.Text;
 
@@ -63,7 +63,7 @@ namespace Infoeduka
             string[] lines = File.ReadAllLines(USERPATH);
             foreach (string line in lines)
             {
-                users.Add(User.parseFromFileLine(line));
+                users.Add(UserModel.parseFromFileLine(line));
             }
         }
     }

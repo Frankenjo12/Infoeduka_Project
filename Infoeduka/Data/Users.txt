@@ -5,3 +5,7 @@ brnjkjo|1234|Lecturer
 crnjo|12345|Admin
 zaporozec|1234|Lecturer
 frnjok|1234|Admin
+matea|1234|Lecturer
+testUser|TestPassword|
+testUser|TestPassword|
+testUser|TestPassword|

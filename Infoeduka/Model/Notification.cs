@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infoeduka.Model
 {
-    internal class Notification
+    public class Notification
     {
         public string Title { get; set; }
         public DateTime DateTime { get; set; }
